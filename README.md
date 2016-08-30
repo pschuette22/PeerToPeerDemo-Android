@@ -13,7 +13,7 @@ This application keeps multiple resident threads running in the background. It c
 4. Establish Wi-Fi direct connections to one or more Android devices
 5. Run PeerToPeerDemo 'app' through Android Studio onto your devices
 
-## Interface Explination
+## Interface Explanation
 This is not the Mona Lisa of Android applications. It's purpose is to demonstate one of the nifty things you can do with Android
 
 1. Devices
