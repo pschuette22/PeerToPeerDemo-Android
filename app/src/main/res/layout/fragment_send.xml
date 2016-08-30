@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+
+        <EditText
+            android:id="@+id/send_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/send_name_hint"/>
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_birthday"/>
+
+        <!--<DatePicker-->
+            <!--android:id="@+id/send_birthday"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"></DatePicker>-->
+
+
+        <!-- Recipients holder -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_select_recipients"
+            android:id="@+id/send_recipients_message"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_recipients_holder"
+            android:orientation="vertical"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:id="@+id/send_button"
+            android:text="Send"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

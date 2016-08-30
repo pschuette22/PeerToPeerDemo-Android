@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/devices_mydeviceinfo"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/devices_mydeviceinfo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover Devices"
+        android:id="@+id/devices_discover"/>
+
+    <TextView
+        android:layout_below="@+id/devices_discover"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Devices: "
+        android:id="@+id/devices_msg"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <ListView
+        android:layout_below="@+id/devices_msg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:drawable/divider_horizontal_dim_dark"
+        android:id="@+id/device_list"/>
+
+</RelativeLayout>
